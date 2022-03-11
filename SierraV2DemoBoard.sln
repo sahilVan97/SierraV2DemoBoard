@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoBoard", "DemoBoard\DemoBoard.vcxproj", "{DE41F581-251C-4FC8-96BA-655EAE824B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE41F581-251C-4FC8-96BA-655EAE824B45}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{DE41F581-251C-4FC8-96BA-655EAE824B45}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{DE41F581-251C-4FC8-96BA-655EAE824B45}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{DE41F581-251C-4FC8-96BA-655EAE824B45}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6D71740-A91A-404A-B197-03272EC507BF}
+	EndGlobalSection
+EndGlobal
