@@ -37,7 +37,7 @@
 osThreadId LEDThread1Handle, lvglUIHandle;
 
 /* Private function prototypes -----------------------------------------------*/
-static void LED_Thread1(void const *argument);
+static void LED_Thread(void const *argument);
 static void LGVL_Thread(void const *argument);
 
 static void selectors_create(lv_obj_t * parent);
@@ -80,7 +80,7 @@ int main(void) {
 	HAL_GPIO_Init(GPIOD, &GPIO_InitStructure);
 
 	/* Thread 1 definition */
-	osThreadDef(LED1, LED_Thread1, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
+	osThreadDef(LED1, LED_Thread, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
   
 	 /*  Thread 2 definition */
     osThreadDef(lgvlUI, LGVL_Thread, osPriorityNormal, 0, configMINIMAL_STACK_SIZE);
@@ -109,7 +109,7 @@ void SysTick_Handler(void) {
   * @param  thread not used
   * @retval None
   */
-static void LED_Thread1(void const *argument) {
+static void LED_Thread(void const *argument) {
 	(void) argument;
   
 	for (;;) {
@@ -128,6 +128,8 @@ static void LED_Thread1(void const *argument) {
   * @retval None
   */
 static void LGVL_Thread(void const *argument) {
+    (void) argument;
+    
     g = lv_group_create();
     lv_group_set_default(g);
 

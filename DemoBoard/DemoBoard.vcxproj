@@ -130,7 +130,6 @@
     <ClCompile Include="LVGL\font\lv_font_montserrat_22.c" />
     <ClCompile Include="LVGL\font\lv_font_montserrat_24.c" />
     <ClCompile Include="LVGL\font\lv_font_montserrat_26.c" />
-    <ClCompile Include="LVGL\font\lv_font_montserrat_28.c" />
     <ClCompile Include="LVGL\font\lv_font_montserrat_28_compressed.c" />
     <ClCompile Include="LVGL\font\lv_font_montserrat_30.c" />
     <ClCompile Include="LVGL\font\lv_font_montserrat_32.c" />

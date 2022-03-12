@@ -14,7 +14,7 @@
     <Entries>
       <KeyValue>
         <Key>com.sysprogs.bspoptions.primary_memory</Key>
-        <Value>flash</Value>
+        <Value>sram</Value>
       </KeyValue>
       <KeyValue>
         <Key>com.sysprogs.bspoptions.arm.floatmode</Key>

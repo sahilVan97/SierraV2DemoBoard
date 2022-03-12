@@ -8,12 +8,12 @@
     </MemoryUtilization>
     <MemoryUtilization>
       <MemoryName>DTCMRAM</MemoryName>
-      <Used>161740</Used>
+      <Used>0</Used>
       <Total>131072</Total>
     </MemoryUtilization>
     <MemoryUtilization>
       <MemoryName>RAM_D1</MemoryName>
-      <Used>0</Used>
+      <Used>246920</Used>
       <Total>524288</Total>
     </MemoryUtilization>
     <MemoryUtilization>
@@ -30,11 +30,6 @@
       <MemoryName>ITCMRAM</MemoryName>
       <Used>0</Used>
       <Total>65536</Total>
-    </MemoryUtilization>
-    <MemoryUtilization>
-      <MemoryName>Unknown</MemoryName>
-      <Used>85164</Used>
-      <Total>0</Total>
     </MemoryUtilization>
   </Memories>
 </MemoryUtilizationReport>

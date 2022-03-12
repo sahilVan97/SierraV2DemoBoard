@@ -1176,94 +1176,7 @@
     <ClCompile Include="LVGL\draw\lv_img_decoder.c">
       <Filter>Source files\LVGL\draw</Filter>
     </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_8.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_10.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_12.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_12_subpx.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_14.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_16.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_18.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_20.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_22.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_24.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_26.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_28.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_28_compressed.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_30.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_32.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_34.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_36.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_38.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_40.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_42.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_44.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_46.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_montserrat_48.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_simsun_16_cjk.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_unscii_8.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_unscii_16.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
     <ClCompile Include="LVGL\font\lv_font.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_dejavu_16_persian_hebrew.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_fmt_txt.c">
-      <Filter>Source files\LVGL\font</Filter>
-    </ClCompile>
-    <ClCompile Include="LVGL\font\lv_font_loader.c">
       <Filter>Source files\LVGL\font</Filter>
     </ClCompile>
     <ClCompile Include="LVGL\hal\lv_hal_disp.c">
@@ -1454,6 +1367,90 @@
     </ClCompile>
     <ClCompile Include="LVGL\extra\layouts\grid\lv_grid.c">
       <Filter>Source files\LVGL\extra\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_14.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_fmt_txt.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_dejavu_16_persian_hebrew.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_loader.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_8.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_10.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_12.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_12_subpx.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_16.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_18.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_20.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_22.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_24.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_26.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_28_compressed.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_30.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_32.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_34.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_36.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_38.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_40.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_42.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_44.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_46.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_montserrat_48.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_simsun_16_cjk.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_unscii_8.c">
+      <Filter>Source files\LVGL\font</Filter>
+    </ClCompile>
+    <ClCompile Include="LVGL\font\lv_font_unscii_16.c">
+      <Filter>Source files\LVGL\font</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
